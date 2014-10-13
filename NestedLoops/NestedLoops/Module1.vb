@@ -6,7 +6,10 @@
 
         For i = 65 To 70
             Console.WriteLine("Appendix " & Chr(i))
-            For j = 1 To 25
+            'Exit For: quit loop any time w/out waiting for end of interation
+            'Continue For: continually jump back 
+
+            For j = 1 To 5
                 Console.WriteLine("Section " & CStr(j))
             Next
         Next
